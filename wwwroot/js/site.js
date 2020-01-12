@@ -23,5 +23,5 @@ function listenForServerSideEvents(url){
 }
 
 document.getElementById("clickme").addEventListener("click", function(){
-    listenForServerSideEvents('api/ServerSideEvent');
+    listenForServerSideEvents('api/ServerSentEvent');
 });

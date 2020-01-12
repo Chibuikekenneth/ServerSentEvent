@@ -6,9 +6,9 @@ using static sse_eventsource.Helpers.RandomText;
 
 namespace sse_eventsource.Controllers.Api
 {
-    [Route("api/ServerSideEvent")]
+    [Route("api/ServerSentEvent")]
     [ApiController]
-    public class ServerSideEventController : Controller
+    public class ServerSentEventController : Controller
     {
         [HttpGet]
         public async Task Get()
