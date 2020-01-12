@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <p class="text-muted">This is a demo of  server-sent events, running on an asp.net core server which sends data over its stream every second to the listener. The listener is this web page, which uses EventSource to subscribe to the server-sent events, and renders the data received on this page, in a list format.</p><br>
+
+    <button type="button" id="clickme" class="btn btn-primary">Click Button to trigger Event</button><br><br>
+
+    <div id="targetDiv"></div>
+</div>
