@@ -3,7 +3,7 @@ This is a demo for [server-sent events](https://developer.mozilla.org/en/docs/We
 
 ### LiveDemo : 
 
-This demo is deployed on Azure @ https://sse-eventsource-demo.azurewebsites.net/
+This demo application is deployed on Azure @ https://sse-eventsource-demo.azurewebsites.net/
 
 ```javascript
 var evtSource = new EventSource('api/ServerSentEvent');
