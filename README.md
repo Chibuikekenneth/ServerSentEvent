@@ -1,6 +1,10 @@
 # ServerSentEvent_Demo
 This is a demo for [server-sent events](https://developer.mozilla.org/en/docs/WebSockets), which runs on an Asp.NetCore server, sends data over its stream every second to the listener. The listener uses [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) to subscribe to the server-sent events, and renders the data received on the page.
 
+### LiveDemo : 
+
+This demo is deployed on Azure @ https://sse-eventsource-demo.azurewebsites.net/
+
 ```javascript
 var evtSource = new EventSource('api/ServerSentEvent');
 var eventList = document.querySelector('ul');
